@@ -1,7 +1,9 @@
-import  express from 'express'
-import jwt from 'jsonwebtoken'
-import mongoose from "mongoose"
+import  express from "express"
 import jwt from "jsonwebtoken"
+import mongoose from "mongoose"
+
+import { UserModel } from './db'
+
 const app = express()
 app.use(express.json())
 
